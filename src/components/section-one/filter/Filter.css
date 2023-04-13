@@ -1,0 +1,73 @@
+.filter {
+  width: 90%;
+/* margin-left: -150%; */
+
+
+}
+.showSide {
+    padding: 30px; 
+    cursor: pointer;
+    user-select: none;
+}
+
+.show {
+    display: flex;
+    gap: 2rem;
+    
+}
+.gender {
+    display: flex;
+    width: 300px;
+    
+}
+.filter .gender button {
+    margin: 4px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 30px;
+}
+.filter .gender button:hover {
+    color: white;
+    background-color: black;    
+    cursor: pointer;
+}
+.showSide p {
+    margin-top: 30px;
+    font-weight: bold;
+}
+.size {
+ width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+ .filter .size button {
+    width: 55px;
+    margin: 2px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 40px;
+    font-weight: 600;
+}
+ .filter .size button:hover {
+    color: white;
+    background-color: black;    
+    cursor: pointer;
+}   
+ button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 15px;
+ }
+ button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+ }

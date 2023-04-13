@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+}
+:root {
+    --neutral-color: #F2F2F2;
+    --primary-color: #00B9E2;
+    --secondary-color: #FFB406;
+    --accent-color: #008AA9;
+}
